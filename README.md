@@ -93,15 +93,17 @@ VALUES
 ('Maria Silva', 'maria@email.com', '1199999999'),
 ('João Souza', 'joao@email.com', '1188888888');
 
+
 UPDATE Produtos
 SET preco = 7.50
 WHERE nome = 'Café Expresso';
 
+
 SELECT nome, preco FROM Produtos WHERE categoria = 'Bebida';
+
 
 DELETE FROM Clientes WHERE cliente_id = 2;
 
-Esses comandos manipulam os dados dentro das tabelas, permitindo visualizar, atualizar ou remover informações conforme a necessidade do negócio.
 
 3. Organização do Repositório
 Para manter o projeto organizado, é importante seguir uma estrutura de pastas clara.
