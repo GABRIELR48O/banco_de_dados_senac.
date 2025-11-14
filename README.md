@@ -63,15 +63,16 @@ Exemplo DDL do nosso projeto
 CREATE DATABASE CafeDoCodigo;
 USE CafeDoCodigo;
 
-Criando a Tabela de Clientes
+
 CREATE TABLE Clientes (
    
+    ````sql
     cliente_id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100),
     telefone VARCHAR(20)
 );
-
+````
 CREATE TABLE Produtos (
     produto_id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
